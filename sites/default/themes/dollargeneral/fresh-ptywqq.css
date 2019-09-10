@@ -1,0 +1,881 @@
+*, *:after, *:before {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+}
+
+.front #container {
+  max-width: 100%;
+}
+
+.front #post-content {
+  padding: 0;
+}
+
+#cboxContent {
+	background: #000;
+}
+
+#seventy5 {
+  left: 50%;
+  margin-left: -76px;
+  position: absolute;
+  top: 0;
+  width: 143px;
+  z-index: 1;
+}
+
+#block-block-2 {
+    text-align: center;
+    position: absolute;
+    top: 200px;
+    left: 0;
+    width: 100%;
+}
+
+span.welcome {
+    font-size: 8.7rem;
+    color: #CCC;
+}
+
+.front #block-system-main {
+	visibility: collapse;
+	margin-bottom: 0;
+}
+
+.front #block-system-main.active {
+	visibility: visible;
+}
+
+/* ========================================================================
+   SECTIONS
+========================================================================= */
+.page-sections #container {
+  max-width: 100%;
+}
+
+/* parallax */
+.hsContainer {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    opacity: 1;
+}
+.hsContent {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center
+}
+.bcg {
+  width: 100%;
+}
+.section {
+  text-align: center;
+  transition: opacity 300ms ease-out 0s;
+  clear: both;
+  float: none;
+}
+.section-wrapper {  
+  display: inline-block;
+  margin: 0 auto 3em;
+  max-width: 940px;
+  padding: 0 0 3.1em 6.5em;
+  position: relative;
+}
+
+.timeline {
+    height: 100%;
+    left: 1em;
+    position: absolute;
+    top: 0;
+    width: 40px;
+    border-left: 1px solid #fff200;
+}
+
+.timeline:before {
+    background: url("https://dollargeneral75.com/sites/default/themes/dollargeneral/images/timeline-top.png") no-repeat 50% 5px;
+    content: " ";
+    display: block;
+    height: 50px;
+    left: -22px;
+    position: absolute;
+    top: -54px;
+    width: 40px;
+}
+
+.timeline:after {
+    background: url("https://dollargeneral75.com/sites/default/themes/dollargeneral/images/timeline-bottom.png") no-repeat 50% bottom;
+    content: " ";
+    display: block;
+    height: 15px;
+    left: -9px;
+    position: absolute;
+    bottom: -8px;
+    width: 18px;
+}
+
+.section h3 {
+	display: none;
+}
+
+.section.family {  
+  position: relative;
+  z-index: -1;
+}
+.section.family .bcg {
+  background: url('https://dollargeneral75.com/sites/default/themes/dollargeneral/images/familyblur.jpg') no-repeat fixed 50% 0 #000;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  height: 100%;
+}
+.section.family .bcg .hsContainer {
+  height: 50%;
+}
+.section.family .bcg2 {
+  background: url('https://dollargeneral75.com/sites/default/themes/dollargeneral/images/family.jpg') no-repeat fixed 50% 0 #000;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  opacity: 0; z-index: 0;
+  position: fixed; top: 0; left: 0; 
+}
+.section.family .bcg.bcg2 .hsContainer {
+  height: 100%;
+}
+
+.intro {
+  background: #000;
+  display: inline-block;
+  padding: 0 0 3em;
+  text-transform: uppercase;
+  width: 100%;
+}
+.intro h1 {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 0.3em 25%;
+  margin: 0;
+}
+.intro .msg-wrapper {
+  background: rgba(0, 0, 0, 0.25);
+  margin: 0 0 1em;
+}
+.intro .msg {
+    margin: 0 auto;
+    max-width: 580px;
+    font-size: 14px;
+    padding: 1em;
+}
+.intro .scroll {
+  color: #fff200;
+}
+.intro small {
+    color: #FFF200;
+    letter-spacing: 1px;
+}
+.bcg2 .intro {
+  background: rgba(0, 0, 0, 0.7);
+}
+.bcg2 .intro h1 {
+  background: none;
+}
+.view-content .section .intro {
+    margin: 50% 0 10%;
+    padding: 5em 0;
+}
+.section.family .intro {
+	background: rgba(0, 0, 0, 0.5);
+	padding-top: 15em;
+}
+.section.family .intro #top,
+.section.family.intro .msg-wrapper {
+	background: rgba(0, 0, 0, 0.25);
+}
+
+/* ========== backgrounds =============== */
+
+.section.time1939-1955 {
+  background: url('https://dollargeneral75.com/sites/default/themes/dollargeneral/images/jlturnerstorebg.jpg') no-repeat scroll 50% 0 #000;
+}
+.section.time1968-1985 {
+  background: url('https://dollargeneral75.com/sites/default/themes/dollargeneral/images/1968.jpg') no-repeat scroll 50% -140px #000;
+}
+.section.time1987-1999 {
+  background: url('https://dollargeneral75.com/sites/default/themes/dollargeneral/images/1987-1999.jpg') no-repeat scroll 50% 0 #000;
+}
+.section.time2000-2011 {
+  background: url('https://dollargeneral75.com/sites/default/themes/dollargeneral/images/2000-2011.jpg') no-repeat scroll 50% 0 #000;
+}
+.section.time2012-Present {
+  background: url('https://dollargeneral75.com/sites/default/themes/dollargeneral/images/2012-present.jpg') no-repeat scroll 50% 0 #000;
+}
+
+.section {
+  background-size: contain !important;
+  -webkit-background-size: contain !important;
+  -moz-background-size: contain !important;
+  -ms-background-size: contain !important;
+  opacity: 1;
+  z-index: 2;
+}
+.section.fixed {
+  background-size: cover !important;
+  -webkit-background-size: cover !important;
+  -moz-background-size: cover !important;
+  -ms-background-size: cover !important;
+  background-attachment: fixed !important;
+}
+.section.thanks {
+	background: #000;
+	min-height: 1200px;
+	position: relative;
+	height: 100%;
+	width: 100%;
+	text-transform: uppercase;
+}
+.section.thanks.fixed {
+    left: 0;
+    position: fixed;
+    top: 0;
+    z-index: 0;
+}
+#thanks-copy {
+	position: relative;
+}
+#thanks-copy > h2 {
+    font-family: gothambook;
+    font-size: 12em;
+    font-weight: 600;
+    padding-top: .25em;
+}
+#thanks-copy > h3 {
+    font-family: gothambook;
+    font-size: 4.5em;
+    font-weight: 600;
+    color: #fff;
+    display: block;
+}
+#thanks-bone {
+    background: url("https://dollargeneral75.com/sites/default/themes/dollargeneral/images/footer-logo.png") no-repeat 50% bottom;
+    height: 60px;
+    margin: 0 auto;
+    padding-top: 14rem;
+    width: 325px;
+    position: relative;
+}
+.seventyfive-logo {
+	background: url('https://dollargeneral75.com/sites/default/themes/dollargeneral/images/75logo.png') no-repeat 50% 50%;
+	display: inline-table;
+	height: 127px;
+	width: 127px;
+}
+.confetti {
+	position: absolute;
+	left: 0;
+	background: url('https://dollargeneral75.com/sites/default/themes/dollargeneral/images/confetti.png') no-repeat 50% 0;
+	width: 100%;
+	height: 976px;
+}
+#sharethis {
+    background: #E5D900;
+    display: inline-table;
+    margin-top: 9em;
+    position: relative;
+}
+#sharethis span {
+    color: #000000;
+    display: table-cell;
+    font-family: "gothambold",sans;
+    line-height: 0.7;
+    padding: 0 10px;
+    text-transform: uppercase;
+    vertical-align: middle;
+}
+a.social {
+    background: #FFF200;
+    color: #000000;
+    display: inline-block;
+    font-family: "dg-social";
+    font-size: 24px;
+    height: 32px;
+    padding: 0.25em;
+    text-transform: lowercase;
+    width: 37px;
+}
+.backtotop {
+    color: #FFF200;
+    display: block;
+    font-size: 14px;
+    margin: 3rem auto 0;
+    position: relative;
+    padding-bottom: 2rem;
+}
+.backtotop:before {
+  content: ">";
+  display: block;
+  font-size: 20px;
+  transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+  
+/* =========================================
+   SECTION NAV
+========================================= */
+#sectiondots {
+  background: rgba(0,0,0,0.4);
+  position: fixed;
+  right: 0;
+  top: 25%;
+  width: 50px; 
+  color: #FFF200;
+  font-size: 10px;
+  line-height: 1.6;
+  text-align: center;
+  padding: 1em;
+  z-index: 100;
+}
+#sectiondots a {
+  display: block;
+  color: #ccc;
+  font-size: 34px;
+  line-height: 0.75;
+}
+#sectiondots a:hover,
+#sectiondots a.active {
+  color: #fff200;
+}
+
+/* ========================================================================
+   MILESTONES
+========================================================================= */
+.milestone {
+  border: 6px solid rgba(255,242,0,0.8);
+  margin: 3.775em auto;
+  display: inline-block;
+  max-width: 667px;
+  position: relative;
+  text-align: left;
+}
+.line {
+    border-top: 1px solid #FFF200;
+    left: -35px;
+    position: absolute;
+    top: 5px;
+}
+.line:before {
+    color: #FFF200;
+    content: "•";
+    display: block;
+    font-size: 30px;
+    left: -6px;
+    position: absolute;
+    top: -11px;
+}
+
+.left {float:left;}
+.right {float:right;}
+.indented-left {float:left; margin-left: 5%;}
+.indented-right {float:right; margin-right: 5%;}
+
+.milestone:before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-right:10px solid rgba(255,242,0,0.8);
+  position: absolute;
+  top: 0;
+  left: -16px;
+}
+.milestone.small:before {
+  top: 33%;
+}
+
+.milestone.small .line {
+    top: 35%;
+}
+.milestone h2 {
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.milestone.normal {
+	min-width: 640px;
+}
+.milestone.large h2 {
+  padding: 2em 1em 1em;
+}
+
+.milestone h2,
+.milestone .info,
+.milestone .copy,
+.milestone .flexslider,
+.milestone.normal img {
+	background: #000;
+}
+.milestone .flexslider img {
+	padding: 0 !important;
+}
+.milestone .liveclicker_thumb {
+  display: none !important;
+}
+
+.milestone .headline {
+  background: rgba(255,242,0,0.8);
+  padding: 0 5px 5px;
+  color: #000;
+  font: 14px "gothambold";
+  text-transform: uppercase;
+}
+.milestone.normal img {
+	float: left;
+	padding-right: 10px;
+}
+.milestone p {
+	margin:0;
+	line-height: 0;
+}
+.milestone .copy {
+	padding: 1em;
+	line-height: 1.62em;
+}
+.milestone.small .copy {
+	text-align: justify;
+}
+.milestone .info {
+	display: table;
+}
+.milestone .info .copy {
+	display: table-cell;
+	vertical-align: middle;
+	font-family: "gothambook", "Montserrat", sans-serif;
+}
+.milestone .bio .info {
+	display: block;
+	overflow: scroll;
+}
+.milestone .views-field-field-timeline-year {
+    color: #FFF200;
+    font-size: 18px;
+    left: -6px;
+    position: absolute;
+    top: -30px;
+    text-shadow: 1px 1px 2px #000000;
+    filter: progid:DXImageTransform.Microsoft.Shadow(color=#333333,direction=45, strength=2);
+}
+.milestone:nth-child(1) {
+    margin-top: 4em;
+}
+.milestone .bio {
+	display: none;
+}
+.milestone .close {
+    background: rgba(255,242,0,0.8);
+    bottom: 0;
+    color: #000000;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    width: 16px;
+}
+.time1968-1985 .milestone:nth-child(6) {
+    width: 680px;
+}
+
+.time1968-1985 .milestone:nth-child(5) .flexslider {
+    float: left;
+    height: 250px;
+    width: 450px;
+}
+
+.milestone.small {
+	display: block; clear: both;
+}
+
+.time1987-1999 .milestone:nth-child(4) .flexslider{
+    float: left;
+    height: 250px;
+    width: 380px;
+}
+
+/* override width & height of this flexslider */
+.time2000-2011 .flexslider {
+    float: left;
+    height: 250px;
+    width: 326px;
+}
+
+.time2012-Present .flexslider {
+  float: left;
+  height: 220px;
+  width: 300px;
+}
+.time2012-Present .flexslider .flex-pauseplay {
+  display: none;
+}
+
+
+
+/* page titles */
+.front .page-title {display: none;}
+
+.page-title {
+  font-family: "gothambold", "Montserrat", sans-serif;
+  text-align: center;
+  color: #fff200;
+  text-transform: uppercase;
+  margin-top: 3rem;
+}
+
+#mask {
+	max-width: 655px !important
+}
+
+#mask img {
+	max-width: inherit;
+}
+.handle {
+    left: -12px !important;
+}
+
+
+/* ========================================================================
+   DG STORIES
+========================================================================= */
+body.not-front {
+	background: url("https://dollargeneral75.com/sites/default/themes/dollargeneral/images/dg-stories.jpg") no-repeat fixed 50% 0 #000;
+	background-size: 100% auto;
+}
+.page-dg-stories .page-title {
+  font-size: 9.6rem;
+  margin-top: 3rem;
+}
+.view-id-news .view-header,
+#block-block-3 {
+  position: relative;
+  padding: 0 1.7em;
+}
+.view-id-news .view-header .content,
+#block-block-3 .content {
+  background: #212121;
+  color: #FFF200;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  margin-bottom: 1em;
+  padding: 1em;
+  position: relative;
+  text-align: justify;
+  text-transform: uppercase;
+}
+.view-id-news .view-header:before,
+#block-block-3:before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 20px solid #212121;
+  margin-top: -10px; /* padding offset */
+  position: absolute;
+  top: 50%;
+  left: 0;
+}
+.masonry-brick {
+	width: 320px;
+	float: left;
+	border-bottom: 1px solid #fff200;
+	margin: 0 0 10px;
+}
+.views-row-first.masonry-brick {
+    border: medium none;
+}
+.view-content.masonry {
+  margin: 0 auto;
+}
+.masonry-brick h2 {
+	font-size: 16px;
+	text-transform: uppercase;
+}
+.masonry-brick .views-field-field-media,
+.masonry-brick .views-field-field-liveclicker-video-url {
+  border-bottom: 4px double #fff200;
+  background: rgb(27, 27, 27);
+}
+.masonry-brick .dg-story-info { /* LiveClicker bricks */
+   background: rgba(27, 27, 27, 0.7);
+   padding: .65em 1.5em;
+}
+.node.masonry-brick .dg-story-info { /* photo bricks */
+   background: rgb(27, 27, 27);
+   padding: .65em 1.5em 4em;
+}
+.views-row-first.masonry-brick .dg-story-info {
+    background: none;
+    padding: 0;
+}
+.masonry-brick .views-field-field-liveclicker-video-url {
+  min-height: 180px;
+}
+#block-webform-client-block-11 {
+	display: none;
+}
+#block-webform-client-block-11.active {
+	display: block;
+	padding: 0 1em;
+}
+#submitstory {
+  background: #000;
+  text-align: center;
+  padding: 1em;
+}
+#submitstory a {
+    color: #FFF200;
+    display: block;
+    font-size: 4em;
+    line-height: 1;
+    text-transform: uppercase;
+    font-family: "gothambook", sans-serif;
+}
+#submitstory a span.bold {
+    font-family: "gothambold", sans-serif;
+}
+#submitstory a span.tiny {
+    font-size: 12px;
+}
+
+/* =================================================================
+   BLOG
+================================================================= */
+.page-blog .content-sidebar-wrap #content {
+  margin-top: 10px !important;
+}
+.page-blog .page-title {
+  font-size: 4.28rem;
+  margin-top: 6rem;
+}
+.page-blog #sidebar-second .block > h2 {
+	background: #fff200;
+	color: #000;
+	font-family: "gothambook", sans-serif;
+	padding: .65em 2em;
+}
+.page-blog #sidebar-second .block .content {
+	color: #000;
+	padding: 0 3em 1em;
+}
+.page-blog #sidebar-second .block .content a {
+	color: #000;
+	font: 14px "gothambook";
+}
+.page-blog #sidebar-second .block .content a:before {
+    background: #000000;
+    border: 1px solid #ccc;
+    color: #FFF200;
+    content: "r";
+    font: 10px "arrows";
+    margin-right: 14px;
+    padding: 2px 4px;
+}
+.page-blog .view-id-easy_category .views-summary,
+.easy-blog-archive-list > li {
+    border-bottom: 1px dotted #000000;
+    padding: 1em 0 !important;
+}
+.page-blog .view-id-easy_category .view-footer {
+	padding: 1em 0;
+}
+
+.easy-blog-archive ul ul {
+	margin: 0;
+	display: block;
+}
+.blog-teaser {
+  background: #fff;
+  margin-bottom: 1.5em;
+  box-shadow: 2px 2px 2px rgba(0,0,0,0.7);
+  -moz-box-shadow: 2px 2px 2px rgba(0,0,0,0.7);
+  -webkit-box-shadow: 2px 2px 2px rgba(0,0,0,0.7);
+  border-left: 8px solid #fff200;
+}
+
+.views-row-even.blog-teaser {
+	border-left: 8px solid #fff87f;
+}
+.blog-title {clear: both;}
+.blog-info {
+  background: #FFFFFF;
+  color: #999;
+  padding: 0.5em 1em 0.5em 2em;
+  font-family: "gothambook";
+  line-height: 2;
+}
+.blog-img {
+  margin-bottom: -5px;
+}
+
+.blog-info h2 {
+  margin: .25rem 0;
+  font-family: "gothambook";
+  color: #000;
+}
+.blog-info .teaser {
+  border-bottom: 1px dotted #ccc;
+  padding-bottom: 2em;
+  margin: 0;
+}
+.blog-info .full {
+  border-bottom: 1px dotted #ccc;
+  padding-bottom: 2em;
+  margin: 0;
+  display: none;
+}
+.blog-info .full.active {
+  display: block;
+}
+.blog-info a {
+  color: #000;
+}
+.page-blog .name,
+.page-blog .created,
+.page-blog .comment-count {
+  display: inline-flex;
+  color: #999;
+  padding-right: 10px;
+}
+.page-blog .created,
+.page-blog .comment-count {
+  border-left: 1px solid #999;
+  padding-left: 10px;
+}
+.page-blog .comment-click {
+	display: none;
+}
+.blog-footer {
+    background: #FFFFFF;
+    color: #000000;
+    padding: 1em 0 0.5em;
+    width: 100%;
+    line-height: 1.5;
+}
+.blog-social a {
+  background: rgb(238,238,238); /* Old browsers */
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2VlZWVlZSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNkZGRkZGQiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+  background: -moz-linear-gradient(top,  rgba(238,238,238,1) 0%, rgba(221,221,221,1) 100%); 
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(238,238,238,1)), color-stop(100%,rgba(221,221,221,1)));
+  background: -webkit-linear-gradient(top,  rgba(238,238,238,1) 0%,rgba(221,221,221,1) 100%);
+  background: -o-linear-gradient(top,  rgba(238,238,238,1) 0%,rgba(221,221,221,1) 100%);
+  background: -ms-linear-gradient(top,  rgba(238,238,238,1) 0%,rgba(221,221,221,1) 100%);
+  background: linear-gradient(to bottom,  rgba(238,238,238,1) 0%,rgba(221,221,221,1) 100%); 
+  border: 1px solid #ccc;
+  color: #000000;
+  display: inline-block;
+  font-family: "dg-social";
+  height: 20px;
+  padding: 0 2px;
+  text-align: center;
+  width: 20px;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -o-border-radius: 4px;
+  -ms-border-radius: 4px;
+}
+.blog-social {
+  float: left;
+}
+.more {
+  float: right;
+  cursor: pointer;
+}
+.more:before {
+	content: "READ MORE";
+}
+.more.open:before {
+	content: "CLOSE";
+}
+.more.open a {
+	transform: rotate(180deg);
+}
+.more a {
+  font-family: "arrows";
+  color: #fff200;
+  border: 1px solid #ccc;
+  background: #000;
+  height: 19px;
+  padding: 4px;
+  text-align: center;
+  width: 20px;
+  margin-left: 6px;
+  display: inline-block;
+  line-height: 0.5;
+}
+.clock {
+  font-family: "dg-social";
+  margin-right:  5px;
+}
+
+/* =================================================================
+   COMMENTS
+================================================================= */
+#cboxLoadedContent {padding: 1em;}
+#edit-comment-body-und-0-format,
+#cboxLoadedContent .region-footer,
+#cboxLoadedContent .links.inline {
+	display: none;
+}
+
+#cboxLoadedContent .comment-form {padding: 0;}
+.comment .links.inline {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+.comment-group > .indented {
+    margin-left: 2.5%;
+}
+.comment-group .indented .comment {
+    margin-top: -4%;
+    position: relative;
+}
+.indented .comment.even {
+	background: #ddd;
+}
+.indented .comment.odd {
+	background: #ccc;
+}
+.indented .comment.even:before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #DDDDDD rgba(0, 0, 0, 0);
+  border-style: solid;
+  border-width: 5px 5px 10px;
+  content: "";
+  height: 0;
+  left: 10px;
+  position: absolute;
+  top: -15px;
+  width: 0;
+}
+.indented .comment.odd:before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #CCC rgba(0, 0, 0, 0);
+  border-style: solid;
+  border-width: 5px 5px 10px;
+  content: "";
+  height: 0;
+  left: 10px;
+  position: absolute;
+  top: -15px;
+  width: 0;
+}
